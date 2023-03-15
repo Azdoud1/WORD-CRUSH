@@ -352,7 +352,7 @@ public class Play implements MouseListener{
         for(int i=0;i<buttons.length;i++) {
             if(click==0) {
                 arrayquestionLevels = readFile("src\\Fiels\\quetions1");
-                arraywordLevels = readFile("src\\Fiels\\correctwords");
+                arraywordLevels = readFile("src\\Fiels\\correctwords1");
                 currentquestionData= arrayquestionLevels[level-1];
                 question=currentquestionData;
                 currentwordData= arraywordLevels[level-1];
@@ -360,7 +360,7 @@ public class Play implements MouseListener{
             }
             else if(click==1) {
                 arrayquestionLevels = readFile("src\\Fiels\\quetions2");
-                arraywordLevels = readFile("src\\Fiels\\correctwords1");
+                arraywordLevels = readFile("src\\Fiels\\correctwords2");
                 currentquestionData= arrayquestionLevels[level-1];
                 currentwordData= arraywordLevels[level-1];
                 question=currentquestionData;
@@ -368,7 +368,7 @@ public class Play implements MouseListener{
             }
             else if(click==2) {
                 arrayquestionLevels = readFile("src\\Fiels\\quetions3");
-                arraywordLevels = readFile("src\\Fiels\\correctwords2");
+                arraywordLevels = readFile("src\\Fiels\\correctwords3");
                 currentquestionData= arrayquestionLevels[level-1];
                 currentwordData= arraywordLevels[level-1];
                 question=currentquestionData;
@@ -376,7 +376,7 @@ public class Play implements MouseListener{
             }
             else if(click==3) {
                 arrayquestionLevels = readFile("src\\Fiels\\quetions4");
-                arraywordLevels = readFile("src\\Fiels\\correctwords3");
+                arraywordLevels = readFile("src\\Fiels\\correctwords4");
                 currentquestionData= arrayquestionLevels[level-1];
                 currentwordData= arraywordLevels[level-1];
                 question=currentquestionData;
@@ -385,7 +385,7 @@ public class Play implements MouseListener{
             }
             else if(click==4) {
                 arrayquestionLevels = readFile("src\\Fiels\\quetions5");
-                arraywordLevels = readFile("src\\Fiels\\correctwords4");
+                arraywordLevels = readFile("src\\Fiels\\correctwords5");
                 currentquestionData= arrayquestionLevels[level-1];
                 currentwordData= arraywordLevels[level-1];
                 question=currentquestionData;
@@ -393,7 +393,7 @@ public class Play implements MouseListener{
             }
             else  {
                 arrayquestionLevels = readFile("src\\Fiels\\quetions6");
-                arraywordLevels = readFile("src\\Fiels\\correctwords5");
+                arraywordLevels = readFile("src\\Fiels\\correctwords6");
                 currentquestionData= arrayquestionLevels[level-1];
                 currentwordData= arraywordLevels[level-1];
                 question=currentquestionData;
